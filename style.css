@@ -1,0 +1,57 @@
+footer {
+	background-color: skyblue;
+	height: 100px;
+}
+nav {
+	background-color: skyblue;
+	text-align: center;
+	max-width: 1080px;
+}
+
+nav h1 {
+	overflow: hidden;
+	padding: 25px;
+	overflow-wrap: normal;
+}
+main {
+	margin: 0 100px;
+	padding: 25px;
+}
+
+.form-control {
+	max-width: 80%;
+	margin-left: 10px;
+}
+
+#result {
+	padding: 25px;
+	color: green;
+}
+
+
+#resultN {
+	padding: 25px;
+	color: green;
+}
+
+main {
+	background-color: ghostwhite;
+	border-radius: 10px;
+	max-width: 720px;
+}
+
+main p {
+	padding: 0 10px;
+}
+
+main h3 {
+	padding: 0 10px;
+}
+
+main h1 {
+	text-align: center;
+}
+
+body {
+	background-color: skyblue;
+}
