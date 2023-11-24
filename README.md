@@ -10,4 +10,7 @@ Desafio tecnico realizado para Escribo Inovação para o Aprendizado
 - O segundo campo é uma variação da função original, onde serão calculados os somatórios do numero escolhido e dos n-números anteriores.
 
 - # Tecnologias utilizadas
-- Html, css, javascript, bootstrap
+- Html
+- Css
+- Javascript
+- Bootstrap
