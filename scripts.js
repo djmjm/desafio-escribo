@@ -6,7 +6,7 @@ function findDivThreeFive(numberChoose){
 }
 
 function calcSumDivThreeFive(){
-	const numberChoose = document.getElementById("numberChoose").value;
+	const numberChoose = Math.abs( document.getElementById("numberChoose").value );
 	const arrayNumber = findDivThreeFive(numberChoose);
 	const totalSum = arrayNumber.reduce((acc, object) => {
 		return acc + object;
@@ -15,7 +15,7 @@ function calcSumDivThreeFive(){
 }
 
 function calcSumDivThreeFiveN(){
-	const numberChoose = document.getElementById("numberChooseN").value;
+	const numberChoose = Math.abs( document.getElementById("numberChooseN").value );
 	const vectorStringResult = [];
 	for(let i = 1; i <= numberChoose; i++){
 		const arrayNumber = findDivThreeFive(i);
